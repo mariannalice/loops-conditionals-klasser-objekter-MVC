@@ -14,6 +14,7 @@ public class FleetController
     _fleet.AddHurtigruten(hurtigruten);
   }
 
+//Something
   public void DisplayShips()
   {
     _hurtigrutenview.DisplayShips(_fleet.Fleet);
