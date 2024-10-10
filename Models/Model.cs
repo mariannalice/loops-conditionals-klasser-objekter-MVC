@@ -23,7 +23,7 @@ public class Hurtigruten
 public class Fleet
 {
   //Felt/field, som i Hurtigruten klassen, men for Model class
-  private List<Hurtigruten> Ships { get; set; }
+  public List<Hurtigruten> Ships { get; set; }
 
   //Constructor
   public Fleet()

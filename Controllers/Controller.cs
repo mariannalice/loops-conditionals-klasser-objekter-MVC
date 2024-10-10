@@ -14,9 +14,28 @@ public class FleetController
     _fleet.AddHurtigruten(hurtigruten);
   }
 
-//Something
+  public void Run()
+  {
+    Console.WriteLine("Velkommen til S.H.I.T (System for Hurtigruten Integrert Transport)");
+    // While True
+        // Spør hva brukeren vil, vis tre valg
+        // Hvis bruker vil legge til ny båt
+            // Legg til ny båt
+            // Fortsett løkke
+        // Ellers hvis brukeren vil fjerne en båt
+            // Spør om noe identifiserende og fjern båten
+            // Fortsett løkke
+        // Ellers hvis brukeren vil se hele flåten
+            // Skriv ut hele flåten
+            // Fortsett løkke
+        // Ellers hvis brukeren vil forlate
+            // Bryt løkke
+        // Ellers
+            // Skriv ut ugyldig input
+
+  }
   public void DisplayShips()
   {
-    _hurtigrutenview.DisplayShips(_fleet.Fleet);
+    _hurtigrutenview.DisplayShips(_fleet.Ships);
   }
 }
